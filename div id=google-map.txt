@@ -1,0 +1,21 @@
+      <div id="google-map">
+        <iframe src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas" frameborder="0" scrolling="no" "></iframe></div>  
+
+
+@ media only screen and (max-width: 600px){
+#google-map iframe{ 
+height: 300px !important; 
+}
+}
+
+
+#google-map{
+width: 100%;
+max-width: 100%;
+display: block;
+}
+#google-map iframe{ 
+width: 100% !important; 
+height: 500px !important; 
+display: block; 
+}
