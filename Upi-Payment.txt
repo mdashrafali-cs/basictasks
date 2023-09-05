@@ -1,0 +1,1 @@
+TLDR - The URL scheme is upi://pay?pn=<Name>&pa=<UPI ID>&cu=<Currency Code>
