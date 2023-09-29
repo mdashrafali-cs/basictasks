@@ -1,0 +1,18 @@
+     <div class="col-md-6">
+                                <input id="phone" type="number" name="phone" class="form-control border-0 bg-light px-6 ml-2"  placeholder="Your Number" minlength="9" maxlength="14" style="height: 55px;" required>
+                            </div>  
+
+
+
+<script>
+        var input = document.querySelector("#phone");
+        intlTelInput(input, {
+          initialCountry: "auto",
+          geoIpLookup: function (success, failure) {
+            $.get("https://ipinfo.io", function () { }, "jsonp").always(function (resp) {
+              var countryCode = (resp && resp.country) ? resp.country : "us";
+              success(countryCode);
+            });
+          },
+        });
+      </script>
