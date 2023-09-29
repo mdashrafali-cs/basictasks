@@ -1,0 +1,7 @@
+                                <select id="select" name="select" class="border-0 bg-light px-6 ml-2 form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                    <option disabled selected>Choose Your Plan</option>
+                                    <option class="btn-primary" value="1">Basic Plan ₹1999</option>
+                                    <option class="btn-primary" value="2">Deluxe Plan ₹4999</option>
+                                    <option class="btn-primary" value="3">Standard Plan ₹7999</option>
+                                    <option class="btn-primary" value="4">Unlimited Plan ₹14999</option>
+                                  </select>
